@@ -12,7 +12,7 @@
     <header>
       <p class="brand">DayPace</p>
       <h1>Privacy Policy</h1>
-      <p class="muted">Last updated: May 22, 2026</p>
+      <p class="muted">Last updated: June 9, 2026</p>
       <nav aria-label="Legal pages">
         <a href="privacy.html" aria-current="page">Privacy</a>
         <a href="terms.html">Terms</a>
@@ -22,7 +22,7 @@
 
     <main>
       <section class="note">
-        <p>DayPace is built to track your workday without turning your work records into an advertising or analytics product. Your work and break entries are stored on your devices, and iCloud backup uses your private iCloud database when you enable it.</p>
+        <p>DayPace is built to track your workday without turning your work records into an advertising product. Your work and break entries are stored on your devices, and iCloud backup uses your private iCloud database when you enable it. DayPace uses limited product analytics to understand whether the app is useful, while keeping work records private by default.</p>
       </section>
 
       <h2>Information DayPace Stores</h2>
@@ -36,11 +36,17 @@
 
       <h2>Where Information Is Stored</h2>
       <p>DayPace stores work records locally on your device. If iCloud backup is available and you use it, DayPace stores work event records in your private CloudKit database under your Apple account.</p>
-      <p>DayPace uses WatchConnectivity to transfer work records and subscription status between your own iPhone and Apple Watch.</p>
+      <p>DayPace uses WatchConnectivity to transfer work records, daily target settings, and subscription status between your own iPhone and Apple Watch.</p>
 
       <h2>Purchases</h2>
       <p>DayPace Pro subscriptions are purchased through the App Store. DayPace uses RevenueCat to manage subscription status. RevenueCat may receive purchase identifiers, transaction information, app user identifiers, device information, and receipt data needed to validate purchases and keep your entitlement in sync.</p>
       <p>DayPace does not send your work-hour events, timelines, schedules, break records, exported backups, or daily targets to RevenueCat.</p>
+
+      <h2>Product Analytics</h2>
+      <p>DayPace uses PostHog to understand basic product usage, such as whether onboarding is completed, whether a work or break action was started from iPhone or Apple Watch, whether the paywall was shown, and whether a purchase flow succeeded or failed.</p>
+      <p>PostHog may receive app, device, and network metadata needed to process analytics events.</p>
+      <p>DayPace may also show optional in-app feedback surveys through PostHog. Survey responses are sent only if you choose to submit them. If you choose to include your email address in a survey, DayPace will use it only to follow up about your feedback.</p>
+      <p>Analytics events use coarse properties, such as time-of-day buckets, duration buckets, and whether an action came from iPhone, Apple Watch, a complication, or a manual entry. DayPace does not send exact work start or end times, timeline histories, exported backups, employer names, project names, notes, location, contacts, calendar data, or private iCloud records to PostHog.</p>
 
       <h2>Information We Do Not Collect</h2>
       <p>DayPace does not currently use third-party advertising, does not sell personal data, and does not collect location, contacts, calendar events, photos, microphone data, or health data.</p>
